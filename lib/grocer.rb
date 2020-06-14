@@ -22,7 +22,9 @@ end
 
 def consolidate_cart(cart)
   index = 0
-  new
+  new_cart = []
+  
+  grocery_item = find_item_by_name_in_collection
 end
 
 consolidate_cart(a) 
