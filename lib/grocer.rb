@@ -24,6 +24,7 @@ def consolidate_cart(cart)
   index = 0
   new_cart = []
   
+  cart.each do |grocery_item|
   grocery_item = find_item_by_name_in_collection
 end
 
