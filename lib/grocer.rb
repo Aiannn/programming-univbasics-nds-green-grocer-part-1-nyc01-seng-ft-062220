@@ -36,7 +36,7 @@ def consolidate_cart(cart)
     end
   else   
     grocery_item[:count] = 1
-    
+    new_cart.push(grocery_item)
 end
 
 consolidate_cart(a) 
