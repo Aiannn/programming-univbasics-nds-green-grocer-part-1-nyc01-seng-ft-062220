@@ -41,4 +41,6 @@ def consolidate_cart(cart)
   index+=1 
 end
 
+end
+
 consolidate_cart(a) 
