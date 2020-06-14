@@ -28,7 +28,8 @@ def consolidate_cart(cart)
   current_item = find_item_by_name_in_collection(grocery_item[:item], new_cart)
   if current_item
     new_cart_index = 0 
-    
+    new_cart.each do |element|
+      
 end
 
 consolidate_cart(a) 
