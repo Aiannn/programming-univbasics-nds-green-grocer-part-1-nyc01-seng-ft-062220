@@ -21,12 +21,7 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  newArr=[]
-  cart.each do |element|
-    element[:count] = 8
-    newArr.push(element)
-  end
-  puts newArr
+  
 end
 
 consolidate_cart(a) 
