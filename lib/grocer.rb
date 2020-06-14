@@ -26,7 +26,8 @@ def consolidate_cart(cart)
   
   cart.each do |grocery_item|
   current_item = find_item_by_name_in_collection(grocery_item[:item], new_cart)
-  
+  if current_item
+    
 end
 
 consolidate_cart(a) 
